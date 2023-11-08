@@ -1,0 +1,104 @@
+body {
+    font-family: Outfit;
+    margin: 4rem 1.5rem;
+    background-color: hsl(217, 54%, 11%); 
+}
+
+h2 {
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0px;
+    letter-spacing: 0.25px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 160%;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 16px;
+    max-width: 300px;
+
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0px 8px 32px hsla(216, 81%, 6%, 0.48);
+}
+
+.top {
+
+}
+
+.nft {
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.metadata {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.icon {
+    margin-right: 6px;
+    position: relative;
+    top: 3px
+}
+
+.price {
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+}
+
+.solid {
+    border: 0.5px solid hsl(215, 32%, 27%);
+    width: 100%;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    margin: 8px 0 0 0;
+    gap: 1rem;
+}
+
+.avatar {
+    width: 32px;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+.creator-text {
+    margin: 0;
+}
+
+span {
+    color: white;
+}
+
+@media screen and (min-width: 375px) {
+    .bodyCopy {
+        font-size: 18px;
+    }
+
+    body {
+        display: flex;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .creator {
+        margin: 8px 0 8px 0;
+    }
+}
